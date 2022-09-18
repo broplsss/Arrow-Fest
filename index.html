@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Игра Управляй Стрелами - Vseigru.net</title>
+<link rel="stylesheet" href="gameloader2020.css" />
+<script src="gameloader2020.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	var options = {
+		author: "Vseigru",
+		logo: "logo.jpg",
+		gameName: "Arrow Fest",
+		gameNameEu: "ArrowFest",
+		gameUrl: "33002",
+		moreLink: ("https://1player.games"),
+		allowFullscreen: false,
+		locale: "ru_RU",
+		loader: "unity2020",
+		loaderOptions: {
+			unityLoaderUrl: "Kuma Games.loader.js",
+			unityConfigOptions: {
+				dataUrl: "Kuma Games.data",
+				frameworkUrl: "Kuma Games.framework.js",
+			    codeUrl: "Kuma Games.wasm",
+				streamingAssetsUrl: "StreamingAssets"
+			}
+		},
+    };
+	GameInit.load(options);	  
+</script>
+</body>
+</html>
